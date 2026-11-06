@@ -1,6 +1,6 @@
-﻿namespace veygo_platform.Booking.Domain.Model.Queries;
+﻿namespace Veygo.Platform.Booking.Domain.Model.Queries;
 
-public class GetBookingByIdQuery
-{
-    
-}
+/// <summary>
+///     Query to get a booking by its id.
+/// </summary>
+public record GetBookingByIdQuery(int BookingId);
