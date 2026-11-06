@@ -1,6 +1,8 @@
-﻿namespace veygo_platform.Booking.Interfaces.Rest.Resources;
+﻿using System.ComponentModel.DataAnnotations;
 
-public class UpdateBookingStatusResource
-{
-    
-}
+namespace Veygo.Platform.Booking.Interfaces.Rest.Resources;
+
+/// <summary>
+///     New status of a booking: confirmed, rejected, cancelled or completed.
+/// </summary>
+public record UpdateBookingStatusResource([Required] string Status);
