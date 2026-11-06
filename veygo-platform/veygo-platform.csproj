@@ -14,4 +14,10 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Booking\Domain\" />
+      <Folder Include="Booking\Infrastructure\" />
+      <Folder Include="Booking\Interfaces\" />
+    </ItemGroup>
+
 </Project>
