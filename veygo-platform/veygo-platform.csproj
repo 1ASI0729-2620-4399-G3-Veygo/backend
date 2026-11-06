@@ -6,12 +6,40 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>veygo_platform</RootNamespace>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <UserSecretsId>0d2d7766-9236-4d8e-ae6a-a4ea26aed9c2</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Sample data loaded on startup (Development) -->
+        <None Update="SampleData\veygo-sample-data.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- EntityFrameworkCore Database Persistence related packages -->
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.14">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <!-- MySQL Database Persistence related packages -->
+        <PackageReference Include="MySql.EntityFrameworkCore" Version="10.0.12" />
+        <!-- Naming convention conversion related packages -->
+        <PackageReference Include="Humanizer" Version="3.0.10" />
+        <!-- OpenAPI documentation related packages -->
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+        <PackageReference Include="Scalar.AspNetCore" Version="2.18.2" />
+        <!-- Mediator pattern related packages (domain events) -->
+        <PackageReference Include="Cortex.Mediator" Version="3.1.2" />
     </ItemGroup>
 
 </Project>
