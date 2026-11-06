@@ -1,6 +1,10 @@
-﻿namespace veygo_platform.Booking.Domain.Model.ValueObjects;
+﻿namespace Veygo.Platform.Booking.Domain.Model.ValueObjects;
 
-public class EPaymentMethod
+/// <summary>
+///     Payment method chosen by the renter.
+/// </summary>
+public enum EPaymentMethod
 {
-    
+    Card,
+    Yape
 }
