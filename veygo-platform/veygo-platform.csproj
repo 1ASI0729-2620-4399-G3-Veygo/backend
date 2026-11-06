@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Booking\Infrastructure\" />
+      <Folder Include="Booking\Infrastructure\Persistence\" />
       <Folder Include="Booking\Interfaces\" />
     </ItemGroup>
 
