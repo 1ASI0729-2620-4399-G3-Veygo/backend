@@ -1,6 +1,14 @@
-﻿namespace veygo_platform.Booking.Domain.Model.Commands;
+﻿using Veygo.Platform.Booking.Domain.Model.ValueObjects;
 
-public class CreateBookingCommand
-{
-    
-}
+namespace Veygo.Platform.Booking.Domain.Model.Commands;
+
+/// <summary>
+///     Command for a renter to request a vehicle for a rental period. The owner and the prices are taken
+///     from the vehicle, never from the client.
+/// </summary>
+public record CreateBookingCommand(
+    int VehicleId,
+    int RenterId,
+    DateOnly StartDate,
+    DateOnly EndDate,
+    EPaymentMethod PaymentMethod);
