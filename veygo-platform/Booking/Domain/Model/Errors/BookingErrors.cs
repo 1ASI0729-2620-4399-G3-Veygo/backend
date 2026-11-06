@@ -1,15 +1,30 @@
-﻿using Veygo.Platform.Booking.Domain.Model.ValueObjects;
-using Veygo.Platform.Shared.Domain.Model.Events;
+﻿using Veygo.Platform.Shared.Domain.Model.Errors;
 
-namespace Veygo.Platform.Booking.Domain.Model.Events;
+namespace Veygo.Platform.Booking.Domain.Model.Errors;
 
 /// <summary>
-///     Raised when the owner confirms or rejects a booking, or when a booking is cancelled or completed.
+///     Error catalog of the Booking bounded context.
 /// </summary>
-/// <param name="BookingId">The booking id.</param>
-/// <param name="VehicleId">The booked vehicle.</param>
-/// <param name="RenterId">The renter.</param>
-/// <param name="OwnerId">The owner.</param>
-/// <param name="Status">The new status.</param>
-public record BookingStatusChangedEvent(int BookingId, int VehicleId, int RenterId, int OwnerId, EBookingStatus Status)
-    : IEvent;
+public static class BookingErrors
+{
+    public static readonly Error BookingNotFound =
+        Error.NotFound("Booking.BookingNotFound", "The booking was not found.");
+
+    public static readonly Error VehicleNotFound =
+        Error.NotFound("Booking.VehicleNotFound", "The vehicle to book was not found.");
+
+    public static readonly Error VehicleNotPublished =
+        Error.Conflict("Booking.VehicleNotPublished", "The vehicle is not published for rental.");
+
+    public static readonly Error VehicleNotAvailable =
+        Error.Conflict("Booking.VehicleNotAvailable", "The vehicle is not available for the selected dates.");
+
+    public static readonly Error OwnVehicle =
+        Error.Validation("Booking.OwnVehicle", "Owners cannot book their own vehicles.");
+
+    public static readonly Error StartDateInThePast =
+        Error.Validation("Booking.StartDateInThePast", "The rental period must start today or later.");
+
+    public static readonly Error InvalidStatusTransition =
+        Error.Conflict("Booking.InvalidStatusTransition", "The booking cannot change to the requested status.");
+}
