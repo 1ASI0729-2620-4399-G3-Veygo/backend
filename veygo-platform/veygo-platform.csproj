@@ -15,6 +15,8 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Booking\Application\Internal\QueryServices\" />
+      <Folder Include="Booking\Application\QueryServices\" />
       <Folder Include="Booking\Domain\" />
       <Folder Include="Booking\Infrastructure\" />
       <Folder Include="Booking\Interfaces\" />
