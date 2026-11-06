@@ -1,6 +1,6 @@
-﻿namespace veygo_platform.Booking.Domain.Model.Queries;
+﻿namespace Veygo.Platform.Booking.Domain.Model.Queries;
 
-public class GetAllBookingsQuery
-{
-    
-}
+/// <summary>
+///     Query to get all the bookings.
+/// </summary>
+public record GetAllBookingsQuery;
