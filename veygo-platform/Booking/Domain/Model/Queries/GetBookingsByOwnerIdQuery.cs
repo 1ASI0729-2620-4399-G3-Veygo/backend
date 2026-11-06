@@ -1,6 +1,6 @@
-﻿namespace veygo_platform.Booking.Domain.Model.Queries;
+﻿namespace Veygo.Platform.Booking.Domain.Model.Queries;
 
-public class GetBookingsByOwnerIdQuery
-{
-    
-}
+/// <summary>
+///     Query to get the bookings of the vehicles of an owner (most recent rental first).
+/// </summary>
+public record GetBookingsByOwnerIdQuery(int OwnerId);
