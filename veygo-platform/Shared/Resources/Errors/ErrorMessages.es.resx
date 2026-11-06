@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" />
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ErrorType.Failure" xml:space="preserve">
+        <value>No se pudo procesar la solicitud</value>
+    </data>
+    <data name="ErrorType.Validation" xml:space="preserve">
+        <value>Solicitud inválida</value>
+    </data>
+    <data name="ErrorType.NotFound" xml:space="preserve">
+        <value>Recurso no encontrado</value>
+    </data>
+    <data name="ErrorType.Conflict" xml:space="preserve">
+        <value>Conflicto con el estado actual</value>
+    </data>
+    <data name="ErrorType.Unauthorized" xml:space="preserve">
+        <value>No autorizado</value>
+    </data>
+    <data name="ErrorType.Forbidden" xml:space="preserve">
+        <value>Acción no permitida</value>
+    </data>
+    <data name="ErrorType.Unexpected" xml:space="preserve">
+        <value>Error interno del servidor</value>
+    </data>
+    <data name="GenericError" xml:space="preserve">
+        <value>Ocurrió un error inesperado al procesar la solicitud.</value>
+    </data>
+    <data name="DuplicateResource" xml:space="preserve">
+        <value>El recurso ya existe.</value>
+    </data>
+    <data name="Booking.BookingNotFound" xml:space="preserve">
+        <value>No se encontró la reserva.</value>
+    </data>
+    <data name="Booking.InvalidStatusTransition" xml:space="preserve">
+        <value>La reserva no puede cambiar al estado solicitado.</value>
+    </data>
+    <data name="Booking.OwnVehicle" xml:space="preserve">
+        <value>Los propietarios no pueden reservar sus propios vehículos.</value>
+    </data>
+    <data name="Booking.StartDateInThePast" xml:space="preserve">
+        <value>El periodo de alquiler debe empezar hoy o después.</value>
+    </data>
+    <data name="Booking.VehicleNotAvailable" xml:space="preserve">
+        <value>El vehículo no está disponible en las fechas seleccionadas.</value>
+    </data>
+    <data name="Booking.VehicleNotFound" xml:space="preserve">
+        <value>No se encontró el vehículo a reservar.</value>
+    </data>
+    <data name="Booking.VehicleNotPublished" xml:space="preserve">
+        <value>El vehículo no está publicado para alquiler.</value>
+    </data>
+    <data name="Communication.ConversationNotFound" xml:space="preserve">
+        <value>No se encontró la conversación.</value>
+    </data>
+    <data name="Communication.DuplicateConversation" xml:space="preserve">
+        <value>Ya existe una conversación entre estos usuarios sobre este vehículo.</value>
+    </data>
+    <data name="Communication.MessageNotFound" xml:space="preserve">
+        <value>No se encontró el mensaje.</value>
+    </data>
+    <data name="Communication.SenderNotParticipant" xml:space="preserve">
+        <value>Solo los participantes de una conversación pueden enviar mensajes en ella.</value>
+    </data>
+    <data name="Communication.VehicleNotFound" xml:space="preserve">
+        <value>No se encontró el vehículo de la conversación.</value>
+    </data>
+    <data name="Engagement.DuplicateFavorite" xml:space="preserve">
+        <value>El vehículo ya está en los favoritos del arrendatario.</value>
+    </data>
+    <data name="Engagement.FavoriteNotFound" xml:space="preserve">
+        <value>No se encontró el favorito.</value>
+    </data>
+    <data name="Engagement.VehicleNotFound" xml:space="preserve">
+        <value>No se encontró el vehículo.</value>
+    </data>
+    <data name="Fleet.BlockedDateInThePast" xml:space="preserve">
+        <value>No se pueden bloquear fechas pasadas.</value>
+    </data>
+    <data name="Fleet.BlockedDateNotFound" xml:space="preserve">
+        <value>No se encontró la fecha bloqueada.</value>
+    </data>
+    <data name="Fleet.DateAlreadyBlocked" xml:space="preserve">
+        <value>La fecha ya está bloqueada para este vehículo.</value>
+    </data>
+    <data name="Fleet.DuplicatePlate" xml:space="preserve">
+        <value>Ya existe otro vehículo registrado con esta placa.</value>
+    </data>
+    <data name="Fleet.VehicleNotFound" xml:space="preserve">
+        <value>No se encontró el vehículo.</value>
+    </data>
+    <data name="Notification.NotificationNotFound" xml:space="preserve">
+        <value>No se encontró la notificación.</value>
+    </data>
+    <data name="Reputation.BookingNotFound" xml:space="preserve">
+        <value>No se encontró la reserva a calificar.</value>
+    </data>
+    <data name="Reputation.DuplicateReview" xml:space="preserve">
+        <value>La reserva ya fue calificada.</value>
+    </data>
+    <data name="Reputation.NotBookingRenter" xml:space="preserve">
+        <value>Solo el arrendatario de la reserva puede calificarla.</value>
+    </data>
+    <data name="Reputation.RentalNotFinished" xml:space="preserve">
+        <value>Solo se pueden calificar alquileres finalizados.</value>
+    </data>
+</root>

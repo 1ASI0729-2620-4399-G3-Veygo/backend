@@ -1,0 +1,769 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "ownerId": 2,
+      "brand": "Toyota",
+      "model": "RAV4 Hybrid",
+      "year": 2023,
+      "category": "suv",
+      "bodyType": "suv",
+      "transmission": "automatic",
+      "fuelType": "hybrid",
+      "seats": 5,
+      "doors": 5,
+      "pricePerDay": 180,
+      "pricePerWeek": 1150,
+      "pricePerMonth": 4300,
+      "securityDeposit": 500,
+      "description": "Hybrid SUV with low fuel consumption, ideal for city driving and weekend trips. Full maintenance and documents up to date.",
+      "features": [
+        "air-conditioning",
+        "bluetooth",
+        "usb",
+        "rear-camera"
+      ],
+      "photos": [
+        "/images/vehicles/toyota-rav4-hybrid.png"
+      ],
+      "location": {
+        "address": "Av. Javier Prado Este 1234",
+        "district": "San Isidro",
+        "city": "Lima",
+        "latitude": -12.0922,
+        "longitude": -77.0258
+      },
+      "published": true,
+      "rating": 4.3,
+      "reviewsCount": 3,
+      "plate": "ABC-123",
+      "color": "Black",
+      "mileage": 38500,
+      "lastMaintenanceAt": "2026-08-10",
+      "insurance": {
+        "provider": "Rímac",
+        "validUntil": "2027-03-31"
+      },
+      "technicalInspectionUntil": "2027-03-15"
+    },
+    {
+      "id": 2,
+      "ownerId": 2,
+      "brand": "Tesla",
+      "model": "Model Y",
+      "year": 2024,
+      "category": "electric",
+      "bodyType": "suv",
+      "transmission": "automatic",
+      "fuelType": "electric",
+      "seats": 5,
+      "doors": 5,
+      "pricePerDay": 300,
+      "pricePerWeek": 1900,
+      "pricePerMonth": 7000,
+      "securityDeposit": 1200,
+      "description": "100% electric SUV with long range and plenty of luggage room. Includes charging cable.",
+      "features": [
+        "air-conditioning",
+        "bluetooth",
+        "gps",
+        "rear-camera",
+        "cruise-control"
+      ],
+      "photos": [
+        "/images/vehicles/tesla-model-y.png"
+      ],
+      "location": {
+        "address": "Av. Larco 345",
+        "district": "Miraflores",
+        "city": "Lima",
+        "latitude": -12.1211,
+        "longitude": -77.0297
+      },
+      "published": true,
+      "rating": 5.0,
+      "reviewsCount": 3,
+      "plate": "EVY-452",
+      "color": "White",
+      "mileage": 12400,
+      "lastMaintenanceAt": "2026-07-02",
+      "insurance": {
+        "provider": "Pacífico",
+        "validUntil": "2027-01-31"
+      },
+      "technicalInspectionUntil": "2027-06-30"
+    },
+    {
+      "id": 3,
+      "ownerId": 3,
+      "brand": "Hyundai",
+      "model": "Grand i10",
+      "year": 2024,
+      "category": "economy",
+      "bodyType": "hatchback",
+      "transmission": "manual",
+      "fuelType": "gasoline",
+      "seats": 5,
+      "doors": 4,
+      "pricePerDay": 90,
+      "pricePerWeek": 580,
+      "pricePerMonth": 2200,
+      "securityDeposit": 500,
+      "description": "Compact and economical hatchback, perfect for daily commuting and short trips around Lima.",
+      "features": [
+        "air-conditioning",
+        "bluetooth",
+        "usb"
+      ],
+      "photos": [
+        "/images/vehicles/hyundai-grand-i10.png"
+      ],
+      "location": {
+        "address": "Av. Primavera 1050",
+        "district": "Santiago de Surco",
+        "city": "Lima",
+        "latitude": -12.1112,
+        "longitude": -76.9916
+      },
+      "published": true,
+      "rating": 0,
+      "reviewsCount": 0,
+      "plate": "BGH-908",
+      "color": "White",
+      "mileage": 21000,
+      "lastMaintenanceAt": "2026-06-18",
+      "insurance": {
+        "provider": "Mapfre",
+        "validUntil": "2026-12-31"
+      },
+      "technicalInspectionUntil": "2027-02-28"
+    },
+    {
+      "id": 4,
+      "ownerId": 3,
+      "brand": "Ford",
+      "model": "Ranger",
+      "year": 2022,
+      "category": "pickup",
+      "bodyType": "pickup",
+      "transmission": "manual",
+      "fuelType": "diesel",
+      "seats": 5,
+      "doors": 4,
+      "pricePerDay": 250,
+      "pricePerWeek": 1600,
+      "pricePerMonth": 5800,
+      "securityDeposit": 1000,
+      "description": "4x4 pickup truck for work, cargo and off-road adventures outside Lima.",
+      "features": [
+        "air-conditioning",
+        "bluetooth",
+        "usb"
+      ],
+      "photos": [
+        "/images/vehicles/ford-ranger.png"
+      ],
+      "location": {
+        "address": "Av. Caminos del Inca 2100",
+        "district": "Santiago de Surco",
+        "city": "Lima",
+        "latitude": -12.1391,
+        "longitude": -76.9933
+      },
+      "published": true,
+      "rating": 0,
+      "reviewsCount": 0,
+      "plate": "C4R-771",
+      "color": "White",
+      "mileage": 72500,
+      "lastMaintenanceAt": "2026-08-25",
+      "insurance": {
+        "provider": "Mapfre",
+        "validUntil": "2027-05-31"
+      },
+      "technicalInspectionUntil": "2027-03-31"
+    },
+    {
+      "id": 5,
+      "ownerId": 2,
+      "brand": "Audi",
+      "model": "Q3",
+      "year": 2023,
+      "category": "luxury",
+      "bodyType": "suv",
+      "transmission": "automatic",
+      "fuelType": "gasoline",
+      "seats": 5,
+      "doors": 5,
+      "pricePerDay": 320,
+      "pricePerWeek": 2000,
+      "pricePerMonth": 7400,
+      "securityDeposit": 1500,
+      "description": "Premium compact SUV for special occasions and business trips.",
+      "features": [
+        "air-conditioning",
+        "bluetooth",
+        "apple-carplay",
+        "android-auto",
+        "sunroof",
+        "parking-sensor"
+      ],
+      "photos": [
+        "/images/vehicles/audi-q3.png"
+      ],
+      "location": {
+        "address": "Av. La Marina 2000",
+        "district": "San Miguel",
+        "city": "Lima",
+        "latitude": -12.0776,
+        "longitude": -77.0847
+      },
+      "published": true,
+      "rating": 4.0,
+      "reviewsCount": 2,
+      "plate": "AUD-303",
+      "color": "White",
+      "mileage": 30100,
+      "lastMaintenanceAt": "2026-05-14",
+      "insurance": {
+        "provider": "La Positiva",
+        "validUntil": "2027-02-28"
+      },
+      "technicalInspectionUntil": "2027-01-31"
+    },
+    {
+      "id": 6,
+      "ownerId": 2,
+      "brand": "Kia",
+      "model": "Soluto",
+      "year": 2023,
+      "category": "economy",
+      "bodyType": "sedan",
+      "transmission": "manual",
+      "fuelType": "gasoline",
+      "seats": 5,
+      "doors": 4,
+      "pricePerDay": 100,
+      "pricePerWeek": 640,
+      "pricePerMonth": 2300,
+      "securityDeposit": 400,
+      "description": "Economical sedan with low fuel consumption, perfect for daily commuting.",
+      "features": [
+        "air-conditioning",
+        "usb"
+      ],
+      "photos": [],
+      "location": {
+        "address": "Av. Salaverry 1500",
+        "district": "Jesús María",
+        "city": "Lima",
+        "latitude": -12.0786,
+        "longitude": -77.0467
+      },
+      "published": false,
+      "rating": 0,
+      "reviewsCount": 0,
+      "plate": "KSL-110",
+      "color": "Blue",
+      "mileage": 45800,
+      "lastMaintenanceAt": "2026-04-30",
+      "insurance": {
+        "provider": "Rímac",
+        "validUntil": "2026-11-30"
+      },
+      "technicalInspectionUntil": "2026-12-31"
+    }
+  ],
+  "blockedDates": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "date": "2026-10-25"
+    },
+    {
+      "id": 2,
+      "vehicleId": 1,
+      "date": "2026-10-26"
+    },
+    {
+      "id": 3,
+      "vehicleId": 2,
+      "date": "2026-10-01"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "vehicleId": 1,
+      "renterId": 1,
+      "ownerId": 2,
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-08",
+      "pricePerDay": 180,
+      "totalPrice": 540,
+      "status": "confirmed",
+      "paymentMethod": "card",
+      "createdAt": "2026-09-20T14:10:00Z",
+      "confirmedAt": "2026-09-21T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "vehicleId": 2,
+      "renterId": 1,
+      "ownerId": 2,
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-17",
+      "pricePerDay": 300,
+      "totalPrice": 600,
+      "status": "pending",
+      "paymentMethod": "yape",
+      "createdAt": "2026-09-25T09:30:00Z"
+    },
+    {
+      "id": 3,
+      "vehicleId": 4,
+      "renterId": 1,
+      "ownerId": 3,
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-12",
+      "pricePerDay": 250,
+      "totalPrice": 500,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-09-01T18:00:00Z",
+      "confirmedAt": "2026-09-02T09:00:00Z"
+    },
+    {
+      "id": 4,
+      "vehicleId": 5,
+      "renterId": 1,
+      "ownerId": 2,
+      "startDate": "2026-07-05",
+      "endDate": "2026-07-08",
+      "pricePerDay": 320,
+      "totalPrice": 960,
+      "status": "cancelled",
+      "paymentMethod": "card",
+      "createdAt": "2026-06-28T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "vehicleId": 1,
+      "renterId": 4,
+      "ownerId": 2,
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-22",
+      "pricePerDay": 180,
+      "totalPrice": 360,
+      "status": "pending",
+      "paymentMethod": "card",
+      "createdAt": "2026-09-26T16:45:00Z"
+    },
+    {
+      "id": 6,
+      "vehicleId": 2,
+      "renterId": 4,
+      "ownerId": 2,
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-18",
+      "pricePerDay": 300,
+      "totalPrice": 900,
+      "status": "completed",
+      "paymentMethod": "yape",
+      "createdAt": "2026-09-08T09:30:00Z",
+      "confirmedAt": "2026-09-09T09:00:00Z"
+    },
+    {
+      "id": 7,
+      "vehicleId": 1,
+      "renterId": 5,
+      "ownerId": 2,
+      "startDate": "2026-04-10",
+      "endDate": "2026-04-13",
+      "pricePerDay": 180,
+      "totalPrice": 540,
+      "status": "completed",
+      "paymentMethod": "yape",
+      "createdAt": "2026-04-03T12:00:00Z",
+      "confirmedAt": "2026-04-05T12:00:00Z"
+    },
+    {
+      "id": 8,
+      "vehicleId": 2,
+      "renterId": 6,
+      "ownerId": 2,
+      "startDate": "2026-05-02",
+      "endDate": "2026-05-04",
+      "pricePerDay": 300,
+      "totalPrice": 600,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-04-25T12:00:00Z",
+      "confirmedAt": "2026-04-27T12:00:00Z"
+    },
+    {
+      "id": 9,
+      "vehicleId": 1,
+      "renterId": 1,
+      "ownerId": 2,
+      "startDate": "2026-05-20",
+      "endDate": "2026-05-22",
+      "pricePerDay": 180,
+      "totalPrice": 360,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-05-13T12:00:00Z",
+      "confirmedAt": "2026-05-15T12:00:00Z"
+    },
+    {
+      "id": 10,
+      "vehicleId": 5,
+      "renterId": 5,
+      "ownerId": 2,
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-15",
+      "pricePerDay": 320,
+      "totalPrice": 960,
+      "status": "completed",
+      "paymentMethod": "yape",
+      "createdAt": "2026-06-05T12:00:00Z",
+      "confirmedAt": "2026-06-07T12:00:00Z"
+    },
+    {
+      "id": 11,
+      "vehicleId": 2,
+      "renterId": 4,
+      "ownerId": 2,
+      "startDate": "2026-07-18",
+      "endDate": "2026-07-21",
+      "pricePerDay": 300,
+      "totalPrice": 900,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-07-11T12:00:00Z",
+      "confirmedAt": "2026-07-13T12:00:00Z"
+    },
+    {
+      "id": 12,
+      "vehicleId": 1,
+      "renterId": 6,
+      "ownerId": 2,
+      "startDate": "2026-08-08",
+      "endDate": "2026-08-12",
+      "pricePerDay": 180,
+      "totalPrice": 720,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-08-01T12:00:00Z",
+      "confirmedAt": "2026-08-03T12:00:00Z"
+    },
+    {
+      "id": 13,
+      "vehicleId": 5,
+      "renterId": 4,
+      "ownerId": 2,
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-24",
+      "pricePerDay": 320,
+      "totalPrice": 640,
+      "status": "completed",
+      "paymentMethod": "yape",
+      "createdAt": "2026-08-15T12:00:00Z",
+      "confirmedAt": "2026-08-17T12:00:00Z"
+    },
+    {
+      "id": 14,
+      "vehicleId": 1,
+      "renterId": 5,
+      "ownerId": 2,
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-04",
+      "pricePerDay": 180,
+      "totalPrice": 360,
+      "status": "completed",
+      "paymentMethod": "card",
+      "createdAt": "2026-08-26T12:00:00Z",
+      "confirmedAt": "2026-08-28T12:00:00Z"
+    },
+    {
+      "id": 15,
+      "vehicleId": 5,
+      "renterId": 6,
+      "ownerId": 2,
+      "startDate": "2026-09-20",
+      "endDate": "2026-09-22",
+      "pricePerDay": 320,
+      "totalPrice": 640,
+      "status": "cancelled",
+      "paymentMethod": "card",
+      "createdAt": "2026-09-13T12:00:00Z",
+      "confirmedAt": "2026-09-15T12:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "bookingId": 7,
+      "vehicleId": 1,
+      "ownerId": 2,
+      "renterId": 5,
+      "rating": 5,
+      "comment": "The car was spotless and very comfortable. Laura was attentive and communication was excellent. Totally recommended!",
+      "createdAt": "2026-04-13T18:00:00Z"
+    },
+    {
+      "id": 2,
+      "bookingId": 8,
+      "vehicleId": 2,
+      "ownerId": 2,
+      "renterId": 6,
+      "rating": 5,
+      "comment": "Excellent experience. The vehicle worked perfectly and the pickup was very fast. I would rent again.",
+      "createdAt": "2026-05-04T18:00:00Z"
+    },
+    {
+      "id": 3,
+      "bookingId": 9,
+      "vehicleId": 1,
+      "ownerId": 2,
+      "renterId": 1,
+      "rating": 4,
+      "comment": "Good service and the car in good condition. I would suggest more flexible pickup hours.",
+      "createdAt": "2026-05-22T18:00:00Z"
+    },
+    {
+      "id": 4,
+      "bookingId": 10,
+      "vehicleId": 5,
+      "ownerId": 2,
+      "renterId": 5,
+      "rating": 5,
+      "comment": "Premium SUV in perfect condition, ideal for a family trip.",
+      "createdAt": "2026-06-15T18:00:00Z"
+    },
+    {
+      "id": 5,
+      "bookingId": 11,
+      "vehicleId": 2,
+      "ownerId": 2,
+      "renterId": 4,
+      "rating": 5,
+      "comment": "Very clean electric SUV, the charging cable was included as promised.",
+      "createdAt": "2026-07-21T18:00:00Z"
+    },
+    {
+      "id": 6,
+      "bookingId": 12,
+      "vehicleId": 1,
+      "ownerId": 2,
+      "renterId": 6,
+      "rating": 4,
+      "comment": "Everything fine, fuel consumption was really low.",
+      "createdAt": "2026-08-12T18:00:00Z"
+    },
+    {
+      "id": 7,
+      "bookingId": 6,
+      "vehicleId": 2,
+      "ownerId": 2,
+      "renterId": 4,
+      "rating": 5,
+      "comment": "Great car and a very kind owner. Smooth return process.",
+      "createdAt": "2026-09-18T18:00:00Z"
+    },
+    {
+      "id": 8,
+      "bookingId": 13,
+      "vehicleId": 5,
+      "ownerId": 2,
+      "renterId": 4,
+      "rating": 3,
+      "comment": "The car was fine but the pickup started 30 minutes late.",
+      "createdAt": "2026-08-24T18:00:00Z"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "renterId": 1,
+      "vehicleId": 3,
+      "createdAt": "2026-09-18T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "renterId": 1,
+      "vehicleId": 2,
+      "createdAt": "2026-09-21T10:00:00Z"
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "renterId": 1,
+      "ownerId": 2,
+      "vehicleId": 1,
+      "createdAt": "2026-09-15T10:05:00Z",
+      "lastMessageAt": "2026-09-15T10:24:00Z",
+      "lastMessagePreview": "Perfect! I confirm the availability, let me know anything."
+    },
+    {
+      "id": 2,
+      "renterId": 1,
+      "ownerId": 3,
+      "vehicleId": 4,
+      "createdAt": "2026-09-26T18:00:00Z",
+      "lastMessageAt": "2026-09-26T18:02:00Z",
+      "lastMessagePreview": "Does the vehicle include full coverage insurance?"
+    },
+    {
+      "id": 3,
+      "renterId": 4,
+      "ownerId": 2,
+      "vehicleId": 1,
+      "createdAt": "2026-09-26T16:50:00Z",
+      "lastMessageAt": "2026-09-26T16:52:00Z",
+      "lastMessagePreview": "Hi Laura, can I pick up the RAV4 at 8 a.m.?"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Hi! Is the Toyota RAV4 Hybrid still available from October 5 to 8?",
+      "sentAt": "2026-09-15T10:12:00Z",
+      "read": true
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Hi Leo! Yes, it is available on those dates. Any other question?",
+      "sentAt": "2026-09-15T10:14:00Z",
+      "read": true
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Great. Does the price include insurance, and how many kilometers are allowed per day?",
+      "sentAt": "2026-09-15T10:16:00Z",
+      "read": true
+    },
+    {
+      "id": 4,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Yes, the price includes basic insurance. The limit is 200 km per day, but we can arrange more if you need it.",
+      "sentAt": "2026-09-15T10:19:00Z",
+      "read": true
+    },
+    {
+      "id": 5,
+      "conversationId": 1,
+      "senderId": 1,
+      "content": "Perfect! Then I will go ahead with the booking. Thanks for the information.",
+      "sentAt": "2026-09-15T10:21:00Z",
+      "read": true
+    },
+    {
+      "id": 6,
+      "conversationId": 1,
+      "senderId": 2,
+      "content": "Perfect! I confirm the availability, let me know anything.",
+      "sentAt": "2026-09-15T10:24:00Z",
+      "read": false
+    },
+    {
+      "id": 7,
+      "conversationId": 2,
+      "senderId": 1,
+      "content": "Hello Carlos, does the vehicle include full coverage insurance?",
+      "sentAt": "2026-09-26T18:02:00Z",
+      "read": false
+    },
+    {
+      "id": 8,
+      "conversationId": 3,
+      "senderId": 4,
+      "content": "Hi Laura, can I pick up the RAV4 at 8 a.m.?",
+      "sentAt": "2026-09-26T16:52:00Z",
+      "read": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "booking-confirmed",
+      "params": {
+        "vehicle": "Toyota RAV4 Hybrid 2023"
+      },
+      "link": {
+        "name": "renter-bookings"
+      },
+      "read": false,
+      "createdAt": "2026-09-21T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "message-received",
+      "params": {
+        "user": "Laura Torres"
+      },
+      "link": {
+        "name": "messages",
+        "query": {
+          "conversation": 1
+        }
+      },
+      "read": false,
+      "createdAt": "2026-09-15T10:24:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "type": "booking-requested",
+      "params": {
+        "user": "Juan Pérez",
+        "vehicle": "Toyota RAV4 Hybrid 2023"
+      },
+      "link": {
+        "name": "owner-bookings"
+      },
+      "read": false,
+      "createdAt": "2026-09-26T16:45:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "type": "message-received",
+      "params": {
+        "user": "Juan Pérez"
+      },
+      "link": {
+        "name": "messages",
+        "query": {
+          "conversation": 3
+        }
+      },
+      "read": false,
+      "createdAt": "2026-09-26T16:52:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "type": "review-received",
+      "params": {
+        "user": "Mariana Díaz",
+        "vehicle": "Toyota RAV4 Hybrid 2023"
+      },
+      "link": {
+        "name": "owner-ratings"
+      },
+      "read": true,
+      "createdAt": "2026-09-04T18:00:00Z"
+    }
+  ]
+}
