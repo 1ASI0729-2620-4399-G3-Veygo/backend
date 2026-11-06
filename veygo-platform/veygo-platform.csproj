@@ -4,7 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>veygo_platform</RootNamespace>
+        <RootNamespace>veygo_Platform</RootNamespace>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <UserSecretsId>0d2d7766-9236-4d8e-ae6a-a4ea26aed9c2</UserSecretsId>
     </PropertyGroup>
